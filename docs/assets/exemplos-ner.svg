@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="406" viewBox="0 0 1200 406" role="img" aria-labelledby="title desc">
+<title id="title">NER in context: saved predictions from BERTimbau Base and Qwen2.5-7B</title>
+<desc id="desc">In the sentence about Mariana, BERTimbau Base recognizes IBM and Rio de Janeiro, misses Mariana, and splits BNDES into B, N, DE, and S, each labeled ORG. Qwen recognizes Mariana as PER, IBM and BNDES as ORG, and Rio de Janeiro as LOC. Sources: experiments/2_bert_base.ipynb, cell 25; experiments/6_llm_qwen_7b.ipynb, cell 19 (zero-based indices).</desc>
+<rect x="0.0" y="0.0" width="1200.0" height="406.0" rx="0" fill="#ffffff"/>
+<text x="32.0" y="44.0" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#172033">NER in context</text>
+<text x="32.0" y="73.0" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#64748b">Same sentence, two approaches · saved notebook outputs</text>
+<rect x="776.0" y="26.0" width="42.0" height="25.0" rx="5" fill="#dbeafe"/>
+<text x="784.0" y="43.0" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#1e40af">PER</text>
+<text x="826.0" y="44.0" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#475569">person</text>
+<rect x="889.7" y="26.0" width="42.0" height="25.0" rx="5" fill="#ffedd5"/>
+<text x="897.7" y="43.0" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#9a3412">ORG</text>
+<text x="939.7" y="44.0" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#475569">organization</text>
+<rect x="1036.7" y="26.0" width="42.0" height="25.0" rx="5" fill="#dcfce7"/>
+<text x="1044.7" y="43.0" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#166534">LOC</text>
+<text x="1086.7" y="44.0" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#475569">location</text>
+<rect x="24.0" y="96.0" width="1152.0" height="128.0" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="44.0" y="125.0" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#172033">BERTimbau Base · fine-tuning</text>
+<text x="44.0" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">Mariana</text>
+<text x="123.4" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">trabalhou</text>
+<text x="217.2" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">três</text>
+<text x="258.8" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">anos</text>
+<text x="308.6" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">na</text>
+<rect x="338.0" y="139.0" width="93.2" height="34.0" rx="6" fill="#ffedd5"/>
+<text x="347.0" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#9a3412">IBM</text>
+<text x="390.2" y="162.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#9a3412">ORG</text>
+<text x="438.2" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">,</text>
+<text x="443.9" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">antes</text>
+<text x="500.9" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">de</text>
+<text x="530.4" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">se</text>
+<text x="557.8" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">mudar</text>
+<text x="623.6" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">para</text>
+<text x="671.5" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">o</text>
+<rect x="689.5" y="139.0" width="184.3" height="34.0" rx="6" fill="#dcfce7"/>
+<text x="698.5" y="163.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#166534">Rio de Janeiro</text>
+<text x="832.8" y="162.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#166534">LOC</text>
+<text x="44.0" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">para</text>
+<text x="91.9" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">atuar</text>
+<text x="146.8" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">no</text>
+<rect x="176.2" y="181.0" width="72.3" height="34.0" rx="6" fill="#ffedd5"/>
+<text x="185.2" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#9a3412">B</text>
+<text x="207.6" y="204.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#9a3412">ORG</text>
+<rect x="255.6" y="181.0" width="73.5" height="34.0" rx="6" fill="#ffedd5"/>
+<text x="264.6" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#9a3412">N</text>
+<text x="288.1" y="204.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#9a3412">ORG</text>
+<rect x="336.1" y="181.0" width="85.2" height="34.0" rx="6" fill="#ffedd5"/>
+<text x="345.1" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#9a3412">DE</text>
+<text x="380.3" y="204.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#9a3412">ORG</text>
+<rect x="428.3" y="181.0" width="71.4" height="34.0" rx="6" fill="#ffedd5"/>
+<text x="437.3" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#9a3412">S</text>
+<text x="458.7" y="204.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#9a3412">ORG</text>
+<text x="506.7" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">.</text>
+<rect x="24.0" y="236.0" width="1152.0" height="128.0" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="44.0" y="265.0" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#172033">Qwen2.5-7B-Instruct · few-shot</text>
+<rect x="44.0" y="279.0" width="132.4" height="34.0" rx="6" fill="#dbeafe"/>
+<text x="53.0" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#1e40af">Mariana</text>
+<text x="135.4" y="302.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#1e40af">PER</text>
+<text x="183.4" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">trabalhou</text>
+<text x="277.2" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">três</text>
+<text x="318.8" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">anos</text>
+<text x="368.6" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">na</text>
+<rect x="398.0" y="279.0" width="93.2" height="34.0" rx="6" fill="#ffedd5"/>
+<text x="407.0" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#9a3412">IBM</text>
+<text x="450.2" y="302.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#9a3412">ORG</text>
+<text x="498.2" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">,</text>
+<text x="503.9" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">antes</text>
+<text x="560.9" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">de</text>
+<text x="590.4" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">se</text>
+<text x="617.8" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">mudar</text>
+<text x="683.6" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">para</text>
+<text x="731.5" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">o</text>
+<rect x="749.5" y="279.0" width="184.3" height="34.0" rx="6" fill="#dcfce7"/>
+<text x="758.5" y="303.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#166534">Rio de Janeiro</text>
+<text x="892.8" y="302.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#166534">LOC</text>
+<text x="44.0" y="345.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">para</text>
+<text x="91.9" y="345.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">atuar</text>
+<text x="146.8" y="345.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">no</text>
+<rect x="176.2" y="321.0" width="122.5" height="34.0" rx="6" fill="#ffedd5"/>
+<text x="185.2" y="345.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#9a3412">BNDES</text>
+<text x="257.7" y="344.0" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#9a3412">ORG</text>
+<text x="305.7" y="345.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#172033">.</text>
+<text x="32.0" y="393.0" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" fill="#64748b">Illustrative predictions; performance varies across sentences.</text>
+</svg>
