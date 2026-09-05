@@ -57,7 +57,7 @@ This example comes from the **spaCy/displaCy** visualizations in the [BERT Base]
 
 ## Running the experiments
 
-Open the notebooks in Jupyter or Google Colab, preferably with a GPU. The initial cells list dependencies; the main stack includes PyTorch, Transformers, Datasets, Evaluate/Seqeval, spaCy, and `pytorch-crf`. Run the cells in order and adjust data and checkpoint paths to your environment.
+Open the notebooks in Jupyter or Google Colab, preferably with a GPU. The initial cells list dependencies; the main stack includes PyTorch, Transformers, Datasets, Evaluate/Seqeval, spaCy and `pytorch-crf`. Run the cells in order and adjust data and checkpoint paths to your environment.
 
 ## License
 
