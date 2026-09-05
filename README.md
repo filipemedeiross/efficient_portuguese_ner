@@ -45,7 +45,7 @@ The [project report, pp. 2–4](docs/Projeto%20Final%20LLM%20-%20Filipe%20de%20M
 | BERTimbau Large fine-tuning | **201.5M trainable parameters** with layer freezing versus **333.4M** with full fine-tuning: approximately **39.5% fewer**, calculated from the reported counts. The total model size remains unchanged. |
 | Models trained from scratch | BiLSTM Small, Medium, and Large + CRF have **5.04M, 10.53M, and 15.67M parameters**, respectively; Transformer + CRF has **5.24M**. |
 
-> Note 01: Despite its small parameter count, the report notes higher GPU memory use for the Transformer, attributing it to attention matrices that grow quadratically with sequence length. |
+> Note 01: Despite its small parameter count, the report notes higher GPU memory use for the Transformer, attributing it to attention matrices that grow quadratically with sequence length.
 
 > Note 02: The Qwen timing is reproduced as reported for that run. The PDF does not provide a uniform latency or peak-memory benchmark across all models, so parameter reductions should not be interpreted as equivalent speedups.
 
